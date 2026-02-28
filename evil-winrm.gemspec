@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Evil-WinRM'
   spec.description = 'The ultimate WinRM shell for hacking/pentesting'
   spec.homepage = 'https://github.com/Hackplayers/evil-winrm#readme'
-  spec.required_ruby_version = '>= 2.3'
+  spec.required_ruby_version = '>= 3.3.0'
 
   spec.metadata = {
     'yard.run'              => 'yard',
