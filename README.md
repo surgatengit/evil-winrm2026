@@ -1,20 +1,9 @@
-# Evil-WinRM [![Version-shield]](https://raw.githubusercontent.com/Hackplayers/evil-winrm/master/evil-winrm.rb) [![Ruby2.3-shield]](https://www.ruby-lang.org/en/news/2015/12/25/ruby-2-3-0-released/) [![Gem-Version]](https://rubygems.org/gems/evil-winrm) [![License-shield]](https://raw.githubusercontent.com/Hackplayers/evil-winrm/master/LICENSE) [![Docker-shield]](https://hub.docker.com/r/oscarakaelvis/evil-winrm/)
+
+Versión revisada y actualizada, Con autocompletar!!
+
+
+
 The ultimate WinRM shell for hacking/pentesting
-
-![Banner](https://raw.githubusercontent.com/Hackplayers/evil-winrm/dev/resources/evil-winrm_logo.png)
-
-## Description & Purpose
-This shell is the ultimate WinRM shell for hacking/pentesting.
-
-WinRM (Windows Remote Management) is the Microsoft implementation of WS-Management Protocol. A standard SOAP based protocol
-that allows hardware and operating systems from different vendors to interoperate. Microsoft included it in their Operating
-Systems in order to make life easier to system administrators.
-
-This program can be used on any Microsoft Windows Servers with this feature enabled (usually at port 5985), of course only
-if you have credentials and permissions to use it. So we can say that it could be used in a post-exploitation hacking/pentesting
-phase. The purpose of this program is to provide nice and easy-to-use features for hacking. It can be used with legitimate
-purposes by system administrators as well but the most of its features are focused on hacking/pentesting stuff.
-
 It is based mainly in the WinRM Ruby library which changed its way to work since its version 2.0. Now instead of using WinRM
 protocol, it is using PSRP (Powershell Remoting Protocol) for initializing runspace pools as well as creating and processing pipelines.
 
@@ -578,10 +567,3 @@ Use it at your own servers and/or with the server owner's permission.
 [@OscarAkaElvis]: https://twitter.com/OscarAkaElvis
 [@_Laox]: https://twitter.com/_Laox
 [@arale61]: https://twitter.com/arale61
-
-<!-- Badges URLs -->
-[Version-shield]: https://img.shields.io/badge/version-3.9-blue.svg?style=flat-square&colorA=273133&colorB=0093ee "Latest version"
-[Ruby2.3-shield]: https://img.shields.io/badge/ruby-2.3%2B-blue.svg?style=flat-square&colorA=273133&colorB=ff0000 "Ruby 2.3 or later"
-[License-shield]: https://img.shields.io/badge/license-LGPL%20v3%2B-blue.svg?style=flat-square&colorA=273133&colorB=bd0000 "LGPL v3+"
-[Docker-shield]: https://img.shields.io/docker/automated/oscarakaelvis/evil-winrm.svg?style=flat-square&colorA=273133&colorB=a9a9a9 "Docker rules!"
-[Gem-Version]: https://img.shields.io/gem/v/evil-winrm?style=flat-square&colorA=273133&colorB=46c249 "Ruby gem"
